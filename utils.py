@@ -514,7 +514,7 @@ async def get_shortlink(chat_id, link, second=True):
             logger.error(e)
             return link
     else:
-        shortzy = Shortzy(api_key='0633fd3d87b7693f0fe702e3ce68d759d6587b34', base_site='urllinkshort.in')
+        shortzy = Shortzy(api_key=API, base_site_url=URL)
         link = await shortzy.convert(link)
         return link
 
