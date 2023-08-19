@@ -49,11 +49,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Omegalinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'b2582f8c38a9c76c2315b44f7ba039ea7196e551')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'Omegalinks.in')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'b2582f8c38a9c76c2315b44f7ba039ea7196e551')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mplaylink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fbdcf16f390af9e3bb200bf581281914851ad4bf')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'mplaylink.in')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'fbdcf16f390af9e3bb200bf581281914851ad4bf')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
