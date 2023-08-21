@@ -25,7 +25,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url="https://t.me/marvelsbackups")
+                    InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url="https://t.me/+lhmcYxmrEf45YzY1")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -42,8 +42,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚜️ Movie Channel ⚜️', url="https://t.me/bholaatw"),
-                    InlineKeyboardButton('🍟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🍟', url="https://t.me/newmoveisp")
+                    InlineKeyboardButton('⚜️ Movie Channel ⚜️', url="https://t.me/+lhmcYxmrEf45YzY1"),
+                    InlineKeyboardButton('🍟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🍟', url="https://t.me/allmoviesgroup1223")
                 ],[
                     InlineKeyboardButton('❗ ʜᴇʟᴘ ❗', callback_data='help'),
                     InlineKeyboardButton('🎭  ᴀʙᴏᴜᴛ 🎭 ', callback_data='about')
@@ -88,8 +88,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚜️ Movie channel ⚜️', url="https://t.me/bholaatw"),
-                    InlineKeyboardButton('🍟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🍟', url="https://t.me/newmoveisp")
+                    InlineKeyboardButton('⚜️ Movie channel ⚜️', url="https://t.me/+lhmcYxmrEf45YzY1"),
+                    InlineKeyboardButton('🍟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🍟', url="https://t.me/allmoviesgroup1223")
                 ],[
                     InlineKeyboardButton('❗ ʜᴇʟᴘ ❗', callback_data='help'),
                     InlineKeyboardButton('🎭  ʜᴇʟᴘ 🎭 ', callback_data='about')
@@ -144,7 +144,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('⛔️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⛔️', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('🔥 JOIИ Backup CHΛИИΞL 🔥', url="https://t.me/marvelsbackups")
+                          InlineKeyboardButton('🔥 JOIИ Backup CHΛИИΞL 🔥', url="https://t.me/+lhmcYxmrEf45YzY1")
                        ]
                         ]
                     )
