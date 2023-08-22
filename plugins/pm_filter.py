@@ -1005,7 +1005,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                  [
                   InlineKeyboardButton('🍟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🍟', url="https://t.me/newmoveisp"),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/marvelsbackups")
+                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/+lhmcYxmrEf45YzY1")
                 ]
                 ]
             )
